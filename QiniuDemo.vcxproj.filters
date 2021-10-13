@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="app\qiniu\qiniu.cpp">
+      <Filter>app\qiniu</Filter>
+    </ClCompile>
+    <ClCompile Include="app\function\functions.cpp">
+      <Filter>app\function</Filter>
+    </ClCompile>
+    <ClCompile Include="app\log\logger.cpp">
+      <Filter>app\log</Filter>
+    </ClCompile>
+    <ClCompile Include="app\httpclient\httpclient.cpp">
+      <Filter>app\httpclient</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="app">
+      <UniqueIdentifier>{bac25417-586d-4fa8-bea3-978d5e0a9694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\qiniu">
+      <UniqueIdentifier>{93936e9b-bf17-4c4b-bb7b-2b09b10dc5e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\qiniu\headers">
+      <UniqueIdentifier>{11c837c8-c217-4590-9365-6fd863ef9ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\function">
+      <UniqueIdentifier>{82a0c8cf-3559-4126-b626-84add11c5ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\log">
+      <UniqueIdentifier>{bfedf4ad-4a9a-4c0e-8a11-2075df8e8c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\httpclient">
+      <UniqueIdentifier>{7d2b7873-146a-4d07-9efe-ff48dafcc6b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app\qiniu\qiniu.h">
+      <Filter>app\qiniu</Filter>
+    </ClInclude>
+    <ClInclude Include="app\qiniu\headers\base.h">
+      <Filter>app\qiniu\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="app\qiniu\headers\cdn.h">
+      <Filter>app\qiniu\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="app\qiniu\headers\conf.h">
+      <Filter>app\qiniu\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="app\qiniu\headers\emu_posix.h">
+      <Filter>app\qiniu\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="app\qiniu\headers\fop.h">
+      <Filter>app\qiniu\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="app\qiniu\headers\http.h">
+      <Filter>app\qiniu\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="app\qiniu\headers\io.h">
+      <Filter>app\qiniu\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="app\qiniu\headers\macro.h">
+      <Filter>app\qiniu\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="app\qiniu\headers\qetag.h">
+      <Filter>app\qiniu\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="app\qiniu\headers\reader.h">
+      <Filter>app\qiniu\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="app\qiniu\headers\resumable_io.h">
+      <Filter>app\qiniu\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="app\qiniu\headers\rs.h">
+      <Filter>app\qiniu\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="app\qiniu\headers\rsf.h">
+      <Filter>app\qiniu\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="app\qiniu\headers\tm.h">
+      <Filter>app\qiniu\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="app\function\functions.h">
+      <Filter>app\function</Filter>
+    </ClInclude>
+    <ClInclude Include="app\log\logger.h">
+      <Filter>app\log</Filter>
+    </ClInclude>
+    <ClInclude Include="app\httpclient\httpclient.h">
+      <Filter>app\httpclient</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
