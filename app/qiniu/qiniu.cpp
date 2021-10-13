@@ -17,8 +17,8 @@ int Qiniu::init_global()
     {
         Qiniu_Global_Init(-1);
 
-        mac.accessKey = "EJVQa8CyiPUElQCyotFlqxcmos52OTMzmqAjc0So";
-        mac.secretKey = "RM0oGopOUz4gISSeXCfSF8IUFCZTSHJnuPI4EyJs";
+        mac.accessKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+        mac.secretKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         Qiniu_RS_PutPolicy putPolicy;
         Qiniu_Io_PutExtra putExtra;
 
